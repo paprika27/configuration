@@ -8,7 +8,7 @@
 # with the currently checked-out configuration repo.
 
 
-ARG IMAGE_PREFIX= 
+ARG IMAGE_PREFIX
 FROM edxops/${IMAGE_PREFIX}xenial-common:latest
 MAINTAINER edxops
 USER root
